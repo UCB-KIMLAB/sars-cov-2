@@ -1,6 +1,9 @@
 # sars-cov-2
 sars-cov-2 code for analysis
 
+## Requirements
+
+`tidyverse` and `ips` package are requiring to run `varcall.R` code
 
 ## Data preprocessing
 
