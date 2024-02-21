@@ -1,5 +1,6 @@
 # sars-cov-2
-sars-cov-2 code for analysis
+
+codes for sars-cov-2 analysis
 
 ## Requirements
 
