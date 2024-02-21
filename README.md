@@ -4,11 +4,11 @@ sars-cov-2 code for analysis
 
 ## Data preprocessing
 
-### Goals of DATA manipulation
+### Goals for DATA manipulation
 - Remove individual specific variants which we do not interests. Those may result of processing bias (base error etc).
 - Filter out the sequences which occur to rare. Those may output of bias.
 
-### divide fasta files into single accessions
+### dividing fasta files into single accessions
 
 ```bash
   perl fasta.divider.pl <fasta file/gzipped fasta file> <output folder> ## divide fasta files into individual files
@@ -79,7 +79,7 @@ the output, `NTS_stats.tsv` is a headerless tab-separated values files containin
 
 ## Variant calling
 
-This is R code, named `varcall.R`, which read fasta file and align it to given reference sequence. and write .tsv file contaiing position, Reference Allele, Alternative Allele.
+This is R code, named `varcall.R`, which read fasta file and align it to given reference sequence and write `.tsv` file contaiing position, Reference Allele, and Alternative Allele.
 
 ```bash
   Rscript varcall.R <Reference> <variant file list> <outfile folder>
