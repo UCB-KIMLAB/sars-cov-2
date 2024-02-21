@@ -87,3 +87,8 @@ This is R code, named `varcall.R`, which read fasta file and align it to given r
 ```bash
   Rscript varcall.R <Reference> <variant file list> <outfile folder>
 ```
+## Onehot encoding
+
+```bash
+  Rscript varcall2Onehot.R <FILELIST> <OUTFILE>
+```
