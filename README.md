@@ -29,6 +29,7 @@ the output, `NTS_stats.tsv` is a headerless tab-separated values files containin
 | LC529905.1 |	C	 | 5489 |
 | MN938384.1 |	G	 | 5859 |
 | MN938384.1 |	C	 | 5484 |
+| ...        | ... | ...  |
 
 - the output, character.stats, were manipulated by tidyverse package` in R.
 - 2-letter or 3-letter codes are considered as Ambiguous letter counted in column nAMB.
