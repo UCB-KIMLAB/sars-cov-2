@@ -37,7 +37,7 @@ the output, `NTS_stats.tsv` is a headerless tab-separated values files containin
 
 - the output, character.stats, were manipulated by tidyverse package` in R.
 - 2-letter or 3-letter codes are considered as Ambiguous letter counted in column nAMB.
-- genome size ratio (gRATE) is the ratio against Wu-1,
+- genome size ratio (gRATE) is the ratio against Wuhan-1 (29,903 bps)
 
 ## outlier checks 
 
