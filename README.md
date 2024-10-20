@@ -83,7 +83,7 @@ The output, `NTS_stats.tsv` is a headerless tab-separated values file containing
 
 ## Variant calling
 
-This is R code, named `varcall.R`, which read fasta file and align it to given reference sequence and write `.tsv` file contaiing position, Reference Allele, and Alternative Allele.
+This is R code, named `varcall.R`, reads a fasta file and aligns it to the given reference sequence, and writes a `.tsv` file containing position, Reference Allele, and Alternative Allele.
 
 ```bash
   Rscript varcall.R <Reference> <variant file list> <outfile folder>
