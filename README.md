@@ -4,26 +4,26 @@ codes for sars-cov-2 analysis
 
 ## Requirements
 
-`tidyverse` and `ips` package are requiring to run `varcall.R` code
+`tidyverse` and `ips` package are required to run `varcall.R` code
 
 ## Data preprocessing
 
 ### Goals for DATA manipulation
-- Remove individual specific variants which we do not interests. Those may result of processing bias (base error etc).
-- Filter out the sequences which occur to rare. Those may output of bias.
+- Remove individual-specific variants in which we are not interested. Those may result in processing bias (base error, etc).
+- Filter out the sequences that occur too rarely. Those may output bias.
 
 ### dividing fasta files into single accessions
 
 ```bash
   perl fasta.divider.pl <fasta file/gzipped fasta file> <output folder> ## divide fasta files into individual files
 ```
-### NTs statistics are calculated by followng scripts.
+### NTs statistics are calculated by following scripts.
 
 ```bash
   perl fasta.char.stat.pl $(ls *) > NTS_stats.tsv ## count nts statistics
 ```
 
-the output, `NTS_stats.tsv` is a headerless tab-separated values files containing following 3 columnes :
+The output, `NTS_stats.tsv` is a headerless tab-separated values file containing following 3 columns :
 
 | Accession	 | NTs | n    |
 | ---------- | --- | ---- |
